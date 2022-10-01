@@ -46,6 +46,7 @@
     cursor: pointer;
     font-size: 15px;
     padding: 10px 30px;
+    border: none;
     border-radius: 10px;
     color: white;
     font-family: 'Roboto Mono', monospace;
@@ -73,14 +74,14 @@
 @media (max-width: 620px) {
     .form-name {
         font-size: 24px;
-        margin-left: -50px;
+        margin-left: 0;
     }
     .name-input,
     .email-input,
     .message-input {
-        width: 300px;
+        width: 250px;
     }
     .submit {
-        margin-right: 210px;
+        margin-right: 160px;
     }
 }
