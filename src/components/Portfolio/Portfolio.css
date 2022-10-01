@@ -26,7 +26,6 @@
 
 .tools2 {
     display: inline-flex;
-    justify-content: space-between;
 }
 
 .react-tool {
@@ -176,5 +175,11 @@
     }
     .catGithub-button {
         margin-left: 160px;
+    }
+}
+
+@media (max-width: 405px) {
+    .tools2 {
+        width: 0;
     }
 }
