@@ -1,0 +1,86 @@
+.contact {
+    color: white;
+    padding-top: 150px;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+}
+
+.form-name {
+    font-size: 30px;   
+    text-align: center;
+    margin-left: -190px;
+}
+
+.forms {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name-input,
+.email-input,
+.message-input {
+    width: 500px;
+    margin: 10px 0;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    border: 2px solid rgb(88, 88, 88);
+    transition: box-shadow 0.4s;
+}
+
+.message-input {
+    padding-bottom: 100px;
+}
+
+.name-input:hover,
+.email-input:hover,
+.message-input:hover {
+    box-shadow: 0rem 0rem 0.2rem 0.2rem #5c5c5c;
+    transition: 0.3s;
+}
+
+.submit {
+    margin-right: 410px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(31, 172, 31);
+    transition: transform 0.4s;
+}
+
+.submit:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.submit:active {
+    transform: scale(0.9);
+}
+
+.submitted {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 550px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media (max-width: 620px) {
+    .form-name {
+        font-size: 24px;
+        margin-left: -50px;
+    }
+    .name-input,
+    .email-input,
+    .message-input {
+        width: 300px;
+    }
+    .submit {
+        margin-right: 210px;
+    }
+}

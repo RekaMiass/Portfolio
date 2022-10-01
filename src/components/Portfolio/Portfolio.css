@@ -1,0 +1,180 @@
+.portfolio {
+    padding-top: 70px;
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: 0 10%;
+    border-bottom: 1px solid white;
+}
+
+.group-name {
+    font-size: 26px;
+    margin-bottom: -10px;
+}
+
+.tools1 {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+
+.tools2 {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.react-tool {
+    background-color: rgb(0, 195, 255);
+    padding: 0 15px;
+    border-radius: 2rem;
+}
+
+.js-tool {
+    background-color: rgb(255, 251, 0);
+    padding: 0 15px;
+    border-radius: 2rem;
+    color: black;
+    margin-right: 10px;
+}
+
+.html-tool {
+    background-color: rgb(177, 0, 0);
+    padding: 0 15px;
+    border-radius: 2rem;
+    margin-left: 10px;
+}
+
+.css-tool {
+    background-color: rgb(233, 123, 191);
+    padding: 0 15px;
+    border-radius: 2rem;
+    
+}
+
+.group1-description {
+    display: block;
+    text-align: left;
+    width: 400px;
+    padding: 0 30px;
+}
+
+.group2-description {
+    display: block;
+    text-align: right;
+    width: 400px;
+    padding: 0 30px;
+}
+
+.buttons {
+    display: inline-flex;
+}
+
+.magicball-button {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(78, 26, 175);
+    transition: transform 0.4s;
+}
+
+.catfacts-button {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-left: 15px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(0, 224, 176);
+    transition: transform 0.4s;
+}
+
+.infoboard-button {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(248, 149, 0);
+    transition: transform 0.4s;
+}
+
+.magicball-button:hover, 
+.catfacts-button:hover,
+.infoboard-button:hover,
+.github-button:hover,
+.catGithub-button:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.magicball-button:active,
+.catfacts-button:active,
+.infoboard-button:active,
+.github-button:active,
+.catGithub-button:active {
+    transform: scale(0.9);
+}
+
+.github-button,
+.catGithub-button {
+    cursor: pointer;
+    margin: 2px 0;
+    width: 45px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    border-radius: 1rem;
+    background-color: grey;
+    transition: transform 0.4s;
+    box-shadow: 0rem 0rem 0.1rem 0.1rem #cfcfcf;
+}
+
+.group-pic {
+    margin-top: 30px;
+    width: 500px;
+    height: 310px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+    .group-pic {
+        width: 380px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 880px) {
+    .group-pic {
+        width: 330px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 780px) {
+    .group-pic {
+        display: none;
+    }
+    .group2-description {
+        text-align: left;
+    }
+    .catfacts-button {
+        margin-left: -205px;
+    }
+    .catGithub-button {
+        margin-left: 160px;
+    }
+}

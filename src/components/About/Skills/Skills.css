@@ -1,0 +1,53 @@
+.skills-back {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.skills-back.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.skills-content {
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    height: 400px;
+    width: 250px;
+    transform: translateY(-150px);
+    transition: 0.6s all;
+    color: black;
+}
+
+.skills-content.active {
+    transform: translateY(0);
+}
+
+.close-skills {
+    cursor: pointer;
+    margin-left: 160px;
+    border: none;
+    background-color: white;
+    transition: 0.4s;
+    transform: scale(1);
+}
+
+.close-skills:hover {
+    transform: scale(1.5);
+}
+
+.close-skills:active {
+    transform: rotate(10rad);
+}

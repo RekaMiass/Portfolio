@@ -1,0 +1,126 @@
+.about {
+    padding-top: 110px;
+    text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.about-pic {
+    text-align: center;
+    width: 760px;
+    height: 320px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: left;
+}
+
+.title-head {
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.title-text {
+    display: block;
+    font-size: 22px;
+    list-style: none;
+}
+.about-text {
+    margin-top: 40px;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.text {
+    text-align: justify;
+    width: 400px;
+    font-size: 18px;
+}
+
+.skills-button {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(47, 158, 202);
+    transition: transform 0.4s;
+}
+
+.skills-button:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.skills-button:active {
+    transform: scale(0.9);
+}
+
+@media (max-width: 985px) {
+    .about-pic {
+        width: 590px;
+        height: 250px;
+    }
+    .title-head {
+        font-size: 38px;
+        width: 100px;
+    }
+    .text {
+        width: 300px;
+    }
+}
+
+@media (max-width: 688px) {
+    .about-pic {
+        width: 470px;
+        height: 200px;
+    }
+    .about-title {
+        display: block;
+    }
+    .title {
+        text-align: center;
+    }
+    .title-head {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-size: 34px;
+        width: auto;
+    }
+     .title-text {
+        display: inline-flex;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+    .about-text {
+        margin: 0;
+        text-align: center;
+    }
+    .text {
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 540px) {
+    .about-pic {
+        width: 310px;
+        height: 130px;
+    }
+    .text {
+        width: 250px;
+    }
+    .title-head {
+        font-size: 30px;
+    }
+}
+ 

@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+}
+
+.content {
+    color: white;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.description {
+    display: block;
+    margin-left: 5%;
+    padding-top: 210px;
+}
+
+.name {
+    font-size: 46px;
+    width: 100px;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.cover-text {
+    width: 300px;
+    font-size: 19px;
+}
+
+.cv-button {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(31, 172, 31);
+    transition: transform 0.4s;
+}
+
+.cv-button:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.cv-button:active {
+    transform: scale(0.9);
+}
+
+.tiny {
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    margin-top: 210px;
+    margin-left: 25%;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.link-buttons {
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+    transition: transform 0.4s;
+}
+
+.link-buttons:hover {
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+
+.link-buttons:active {
+    transform: translateY(10px);
+}
+
+.button-icon {
+    height: 35px;
+    width: 37px;
+}
+
+@media (max-width: 1030px) {
+    .content {
+        display: block;
+        text-align: center;
+    }
+    .tiny {
+        height: 300px;
+        width: 300px;
+        margin-top: 140px;
+        margin-left: 0;
+    }
+    .description {
+        padding-top: 5px;
+        margin-left: 0;
+    }
+    .name {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: auto;
+    }
+    .cover-text {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .links {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 560px) {
+    .tiny {
+        height: 230px;
+        width: 230px;
+    }
+    .name {
+        font-size: 30px;
+    }
+    .cover-text {
+        font-size: 16px;
+    }
+    .links {
+        margin-top: 100px;
+    }
+}
