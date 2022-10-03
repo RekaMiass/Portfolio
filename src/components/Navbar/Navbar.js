@@ -21,7 +21,7 @@ const Navbar = () => {
                 <NavLink onClick={showNavbar} to="/about" className="nav-link">
                     <li>About</li>
                 </NavLink>
-                <NavLink onClick={showNavbar} to="/portfolio" className="nav-link">
+                <NavLink onClick={showNavbar} to="/projects" className="nav-link">
                     <li>Projects</li>
                 </NavLink>
                 <NavLink onClick={showNavbar} to="/contact" className="nav-link">
