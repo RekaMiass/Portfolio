@@ -22,7 +22,7 @@ const Navbar = () => {
                     <li>About</li>
                 </NavLink>
                 <NavLink onClick={showNavbar} to="/portfolio" className="nav-link">
-                    <li>Portfolio</li>
+                    <li>Projects</li>
                 </NavLink>
                 <NavLink onClick={showNavbar} to="/contact" className="nav-link">
                     <li>Contact</li>
