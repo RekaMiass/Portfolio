@@ -1,8 +1,8 @@
 import React from "react";
-import './Portfolio.css';
+import './Projects.css';
 import { motion } from "framer-motion/dist/framer-motion";
 
-const Portfolio = () => {
+const Projects = () => {
     return (
         <motion.div   
         initial={{opacity: 0}}           
@@ -77,4 +77,4 @@ const Portfolio = () => {
     )
 }
 
-export default Portfolio;
+export default Projects;
