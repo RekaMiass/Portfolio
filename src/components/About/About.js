@@ -18,7 +18,7 @@ const About = () => {
             <div className="about-title">
                 <div className="title">
                     <p className="title-head">Maria Avramenko</p>
-                    <li className="title-text">26 y.o.</li>
+                    <li className="title-text">27 y.o.</li>
                     <li className="title-text">+79823150580</li>
                     <li className="title-text">mariavram@mail.ru</li>
                 </div>
