@@ -16,8 +16,8 @@ const Projects = () => {
                         <p className="react-tool">React</p>
                         <p className="css-tool">CSS</p>
                     </div>
-                    <p>Info Board includes the current news, the weather forecast, the exchange rates for euro and American dollar to Russian ruble.
-                    It also shows current date and time. Here I focused on fetching data from API and using React Hooks.</p>
+                    <p>Info Board includes the current news, the weather forecast, and the exchange rates for the euro and the American dollar to the Russian ruble. 
+                    It also shows the current date and time. Here I focused on fetching data from API and using React Hooks.</p>
                     <div className="buttons">
                         <a href="https://rococo-smakager-6edfd3.netlify.app">
                             <button className="infoboard-button" title="Look the project">INFO BOARD</button>
@@ -27,7 +27,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                <img className="group-pic" src="/pictures/MagicBall.png" alt=""/>
+                <img className="group-pic" src="/pictures/InfoBoard.png" alt=""/>
             </div>
             <div className="group">
                 <img className="group-pic" src="/pictures/CatsFacts.png" alt=""/>
@@ -38,8 +38,8 @@ const Projects = () => {
                         <p className="css-tool">CSS</p>
                         <p className="html-tool">HTML</p>
                     </div>
-                    <p>To know something new about our fluffy mates you need to click a button and you'll get random fact.
-                    Here I fetched data from API. I chose API that is free and open without any unique key.</p>
+                    <p>To know something new about our fluffy mates you need to click a button and you'll get a random fact. 
+                    Here I fetched data from API. I chose an API that is free and open without any unique key.</p>
                     <div className="buttons">
                         <a href="https://github.com/RekaMiass/CatsFacts">
                             <button className="catGithub-button" title="See the code"><img className="button-icon" src="/icons/github.png" alt=""/></button>
@@ -57,10 +57,8 @@ const Projects = () => {
                         <p className="react-tool">React</p>
                         <p className="css-tool">CSS</p>
                     </div>
-                    <p>The first project I've developed with React. 
-                    It's inspired by a toy which gives randome answers.
-                    Actually those answers were different types of YES and NO.
-                    In my version of the toy you need to fill out a form and click a button to get the answer.</p>
+                    <p>The first project I developed with React. It's inspired by a toy that gives random answers. Those answers were different types of YES and NO. 
+                    In my toy version, you need to fill out a form and click a button to get the answer.</p>
                     <div className="buttons">
                         <a href="https://charming-sunshine-7a933d.netlify.app">
                             <button className="magicball-button" title="Look the project">MAGIC BALL</button>
@@ -70,7 +68,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                <img className="group-pic" src="/pictures/InfoBoard.png" alt=""/>
+                <img className="group-pic" src="/pictures/MagicBall.png" alt=""/>
             </div>
         </motion.div>
     )
