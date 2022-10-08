@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="description">
                     <p className='name'>Maria Avramenko</p>
                     <p className='cover-text'>I'm frontend developer and I'm going to solve your tasks. Welcome!</p>
-                    <a href="/МоёРезюме.pdf" download><button className="cv-button">DOWNLOAD CV</button></a>
+                    <a href="/Авраменко Мария.pdf" download><button className="cv-button">DOWNLOAD CV</button></a>
                 </div>
             </div>
             <div className="links">
