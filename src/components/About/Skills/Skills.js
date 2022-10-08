@@ -12,14 +12,14 @@ const Skills = ({active, setActive}) => {
                     </button>
                     <li>JavaScript</li>
                     <li>React</li>
-                    <li>Node.js</li>
-                    <li>Git</li>
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>Git</li>
                     <br/>
                     <b>Languges:</b>
                     <li>Russian (native)</li>
                     <li>English (B2)</li>
+                    <li>German (A1)</li>
                 </ul>
             </div>
         </div>
