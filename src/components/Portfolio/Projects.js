@@ -11,21 +11,18 @@ const Projects = () => {
         className='portfolio'>
             <div className="group">
                 <div className="group1-description">
-                    <p className="group-name">MAGIC BALL</p>
+                    <p className="group-name">INFO BOARD</p>
                     <div className="tools1">
                         <p className="react-tool">React</p>
                         <p className="css-tool">CSS</p>
                     </div>
-                    <p>The first project I've done and the first project I've done with React. 
-                    It's inspired of a once popular toy that had ball shape. 
-                    People asked things they were doubted about, shook the ball and it gave them random answer. 
-                    Actually those answers were different types of YES and NO.
-                    In my version of the ball you need to fill out a form and click a button to get the answer.</p>
+                    <p>Info Board includes the current news, the weather forecast, the exchange rates for euro and American dollar to Russian ruble.
+                    It also shows current date and time. Here I focused on fetching data from API and using React Hooks.</p>
                     <div className="buttons">
-                        <a href="https://charming-sunshine-7a933d.netlify.app">
-                            <button className="magicball-button" title="Look the project">MAGIC BALL</button>
+                        <a href="https://rococo-smakager-6edfd3.netlify.app">
+                            <button className="infoboard-button" title="Look the project">INFO BOARD</button>
                         </a>
-                        <a href="https://github.com/RekaMiass/MagicBall-project">
+                        <a href="https://github.com/RekaMiass/InfoBoard">
                             <button className="github-button" title="See the code"><img className="button-icon" src="/icons/github.png" alt=""/></button>
                         </a>
                     </div>
@@ -41,8 +38,8 @@ const Projects = () => {
                         <p className="css-tool">CSS</p>
                         <p className="html-tool">HTML</p>
                     </div>
-                    <p>Here I fetched data from API. I chose API that is free and open without any unique key. 
-                    To know something new about our fluffy mates you need to click a button and you'll get random fact.</p>
+                    <p>To know something new about our fluffy mates you need to click a button and you'll get random fact.
+                    Here I fetched data from API. I chose API that is free and open without any unique key.</p>
                     <div className="buttons">
                         <a href="https://github.com/RekaMiass/CatsFacts">
                             <button className="catGithub-button" title="See the code"><img className="button-icon" src="/icons/github.png" alt=""/></button>
@@ -55,18 +52,20 @@ const Projects = () => {
             </div>
             <div className="group">
                 <div className="group1-description">
-                    <p className="group-name">INFO BOARD</p>
+                    <p className="group-name">MAGIC BALL</p>
                     <div className="tools1">
                         <p className="react-tool">React</p>
                         <p className="css-tool">CSS</p>
                     </div>
-                    <p>Info Board includes current news, weather forecast, exchange rates for euro and American dollar to Russian ruble.
-                    It also shows current date and time. Here I focused on getting data from API and using React Hooks.</p>
+                    <p>The first project I've developed with React. 
+                    It's inspired by a toy which gives randome answers.
+                    Actually those answers were different types of YES and NO.
+                    In my version of the toy you need to fill out a form and click a button to get the answer.</p>
                     <div className="buttons">
-                        <a href="https://rococo-smakager-6edfd3.netlify.app">
-                            <button className="infoboard-button" title="Look the project">INFO BOARD</button>
+                        <a href="https://charming-sunshine-7a933d.netlify.app">
+                            <button className="magicball-button" title="Look the project">MAGIC BALL</button>
                         </a>
-                        <a href="https://github.com/RekaMiass/InfoBoard">
+                        <a href="https://github.com/RekaMiass/MagicBall-project">
                             <button className="github-button" title="See the code"><img className="button-icon" src="/icons/github.png" alt=""/></button>
                         </a>
                     </div>
