@@ -42,6 +42,14 @@
     margin-right: 10px;
 }
 
+.ts-tool {
+    background-color: rgb(0, 68, 255);
+    padding: 0 15px;
+    border-radius: 2rem;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .html-tool {
     background-color: rgb(177, 0, 0);
     padding: 0 15px;
@@ -113,9 +121,23 @@
     transition: transform 0.4s;
 }
 
+.todo-button {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(0, 86, 245);
+    transition: transform 0.4s;
+}
+
 .magicball-button:hover, 
 .catfacts-button:hover,
 .infoboard-button:hover,
+.todo-button:hover,
 .github-button:hover,
 .catGithub-button:hover {
     transform: scale(1.1);
@@ -125,6 +147,7 @@
 .magicball-button:active,
 .catfacts-button:active,
 .infoboard-button:active,
+.todo-button:active,
 .github-button:active,
 .catGithub-button:active {
     transform: scale(0.9);
@@ -173,7 +196,8 @@
     .group2-description {
         text-align: left;
     }
-    .catfacts-button {
+    .catfacts-button,
+    .todo-button {
         margin-left: -205px;
     }
     .catGithub-button {
