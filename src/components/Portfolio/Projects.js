@@ -10,6 +10,26 @@ const Projects = () => {
         exit={{opacity: 0, transition: {duration: 0.3}}}
         className='portfolio'>
             <div className="group">
+                <img className="group-pic" src="/pictures/Todo.png" alt=""/>
+                <div className="group2-description">
+                    <p className="group-name">TODO LIST</p>
+                    <div className="tools2">
+                        <p className="react-tool">React</p>
+                        <p className="ts-tool">TypeScript</p>
+                        <p className="css-tool">CSS</p>
+                    </div>
+                    <p>Classic Todo list.</p>
+                    <div className="buttons">
+                        <a href="https://github.com/RekaMiass/Test-TodoList">
+                            <button className="catGithub-button" title="See the code"><img className="button-icon" src="/icons/github.png" alt=""/></button>
+                        </a>
+                        <a href="https://whimsical-caramel-638f76.netlify.app">
+                            <button className="todo-button" title="Look the project">TODO LIST</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div className="group">
                 <div className="group1-description">
                     <p className="group-name">INFO BOARD</p>
                     <div className="tools1">
@@ -70,26 +90,7 @@ const Projects = () => {
                 </div>
                 <img className="group-pic" src="/pictures/MagicBall.png" alt=""/>
             </div>
-               <div className="group">
-                    <img className="group-pic" src="/pictures/Todo.png" alt=""/>
-                    <div className="group2-description">
-                        <p className="group-name">TODO LIST</p>
-                        <div className="tools2">
-                            <p className="react-tool">React</p>
-                            <p className="ts-tool">TypeScript</p>
-                            <p className="css-tool">CSS</p>
-                        </div>
-                        <p>Classic Todo list.</p>
-                        <div className="buttons">
-                            <a href="https://github.com/RekaMiass/Test-TodoList">
-                                <button className="catGithub-button" title="See the code"><img className="button-icon" src="/icons/github.png" alt=""/></button>
-                            </a>
-                            <a href="https://whimsical-caramel-638f76.netlify.app">
-                                <button className="todo-button" title="Look the project">TODO LIST</button>
-                            </a>
-                    </div>
-                </div>
-            </div>
+           
         </motion.div>
     )
 }
