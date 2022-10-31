@@ -10,6 +10,25 @@ const Projects = () => {
         exit={{opacity: 0, transition: {duration: 0.3}}}
         className='portfolio'>
             <div className="group">
+                <div className="group1-description">
+                    <p className="group-name">LOCAL CHAT</p>
+                    <div className="tools1">
+                        <p className="react-tool">React</p>
+                        <p className="css-tool">CSS</p>
+                    </div>
+                    <p>Chat works without a server. User identifies himself and the chat room he wants to enter. User data and messages are stored locally and not deleted when the browser is closed.</p>
+                    <div className="buttons">
+                        <a href="https://sparkling-kheer-9a3e83.netlify.app">
+                            <button className="chat-button" title="Look the project">LOCAL CHAT</button>
+                        </a>
+                        <a href="https://github.com/RekaMiass/Local-Chat">
+                            <button className="github-button" title="See the code"><img className="button-icon" src="/icons/github.png" alt=""/></button>
+                        </a>
+                    </div>
+                </div>
+                <img className="group-pic" src="/pictures/Chat.png" alt=""/>
+            </div>
+            <div className="group">
                 <img className="group-pic" src="/pictures/Todo.png" alt=""/>
                 <div className="group2-description">
                     <p className="group-name">TODO LIST</p>
